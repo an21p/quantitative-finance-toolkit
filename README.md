@@ -13,7 +13,9 @@
     - Stochastic Processes with Jumps (will be added soon)
 - Derivative Pricing (will be added soon)
 
-## Future Areas of interest 
+## Future Areas of Interest 
 - Monte Carlo Tree Search
 - Bayesian Models (STAN) 
+- Backtracking Problems
+- Dynamic Programming
 
