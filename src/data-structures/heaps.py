@@ -52,7 +52,7 @@ class Heap(object):
         self.items.append(key)
         self.heapify_up()
 
-    def remove(self, key):
+    def remove(self):
         top = self.items[0]
         self.items[0] = self.items[-1]
         self.items.pop()
@@ -106,8 +106,8 @@ if __name__ == "__main__":
     max_heap.insert(5)
     max_heap.insert(2)
     print("Max-Heap array: " + str(max_heap.items))
-    max_heap.remove(4)
-    max_heap.remove(9)
+    max_heap.remove()
+    max_heap.remove()
     print(max_heap.peek())
     print("After deleting an element: " + str(max_heap.items))
 
@@ -118,6 +118,6 @@ if __name__ == "__main__":
     min_heap.insert(5)
     min_heap.insert(2)
     print("Min-Heap array: " + str(min_heap.items))
-    min_heap.remove(2)
+    min_heap.remove()
     print(min_heap.peek())
     print("After deleting an element: " + str(min_heap.items))
