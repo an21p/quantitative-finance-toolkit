@@ -19,3 +19,15 @@
 - Backtracking Problems
 - Dynamic Programming
 
+
+### Setup
+```bash
+python -m venv .venv
+source .venv/bin/activate
+.venv/bin/jupyter-lab
+
+pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m pip freeze > requirements.txt
+deactivate
+```
